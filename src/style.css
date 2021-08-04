@@ -1,1 +1,38 @@
+body {
+  font-family: "Biryani", sans-serif;
+  font-size: 19px;
+  text-align: center;
+  background-color: #303030;
+  color: #a8f1c0;
+}
 
+h1 {
+  font-family: "Baloo Da 2", cursive;
+  font-size: 35px;
+  color: #bdbdbd;
+}
+
+button {
+  border-radius: 30px;
+  border-color: #0071e3;
+  background-color: #0071e3;
+  color: #fff;
+  cursor: pointer;
+  height: 45px;
+  width: 100px;
+  font-size: 17px;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #117fec;
+}
+
+nav, a {
+  color: #81a0e4;
+  font-size: 17px;
+}
+
+a {
+  cursor: pointer;
+}
