@@ -71,3 +71,13 @@ let quotes = [ ` "The only way to do great work is to love what you do. If you h
             "Life is what happens when you’re busy making other plans. - John Lennon",
 
 ];
+
+let button = "Generate a Quote";
+// randomating and generating new quotes
+function generateQuotes() {
+let randomQuotes = Math.floor(Math.random() * (quotes.length));
+document.getElementById("printQuotes").innerHTML = quotes[randomQuotes];
+}
+
+// clicking the button will generate a new quote
+document.getElementById("generateNewQuotes").innerHTML = generateQuotes();
