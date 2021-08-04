@@ -1,1 +1,64 @@
+$background: #303030;
+$button-color: #0071e3;
+$button-hover-color: #117fec;
+$body-font: "Biryani", sans-serif;
+$body-size: 19px;
+$body-text-color: #a8f1c0;
+$h1-font: "Baloo Da 2", cursive;
+$h1-size: 35px;
+$h1-text-color: rgb(189, 189, 189);
+$align: center;
+$border-radius: 30px;
+$button-text-color: #fff;
+$cursor: pointer;
+$button-height: 45px;
+$button-width: 100px;
+$button-font-size: 17px;
+$margin-top: 15px;
+$nav-link-color: #81a0e4;
+$link-hover-color: #9dbaf8;
 
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@500&family=Biryani:wght@300&display=swap');
+
+body {
+    font-family: $body-font;
+    font-size: $body-size;
+    text-align: $align;
+    background-color: $background;
+    color: $body-text-color;
+}
+
+h1 { 
+    font-family: $h1-font;
+    font-size: $h1-size;
+    color: $h1-text-color;
+}
+
+button {
+    border-radius: $border-radius;
+    border-color: $button-color;
+    background-color: $button-color;
+    color: $button-text-color;
+    cursor: $cursor;
+    height: $button-height;
+    width: $button-width;
+    font-size: $button-font-size;
+    margin-top: $margin-top;
+}
+
+button:hover {
+    background-color: $button-hover-color;
+}
+
+nav, a {
+    color: $nav-link-color;
+    font-size: $button-font-size;
+}
+
+ a {
+    cursor: $cursor;
+}
+ 
+a:hover {
+    color: $link-hover-color;
+}
