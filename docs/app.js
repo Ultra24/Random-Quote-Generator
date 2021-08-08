@@ -80,4 +80,4 @@ document.getElementById("printQuotes").innerHTML = quotes[randomQuotes];
 }
 
 // clicking the button will generate a new quote
-document.getElementById("generateNewQuotes").innerHTML = generateQuotes();
+document.getElementById("generateNewQuotes").innerHTML = generateQuotes() += "Generate a New Quote";
